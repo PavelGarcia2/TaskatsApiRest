@@ -2,5 +2,10 @@
     "require": {
         "flightphp/core": "^3.7",
         "firebase/php-jwt": "^6.10"
+    },
+    "autoload":{
+        "psr-4":{
+            "Classes\\": "classes"
+        }
     }
 }
